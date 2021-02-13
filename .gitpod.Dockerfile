@@ -1,6 +1,8 @@
-FROM archlinux
+FROM ubuntu
 
-RUN pacman -S jdk8-openjdk --noconfirm
+RUN apt update -y
+RUN apt upgrade -y
+RUN apt install openjdk-8-jre-headless -y
 
 # Install custom tools, runtimes, etc.
 # For example "bastet", a command-line tetris clone:
