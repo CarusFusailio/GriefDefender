@@ -1,4 +1,4 @@
-FROM openjdk:<version>-alpine
+FROM openjdk:8-alpine
 
 # Install custom tools, runtimes, etc.
 # For example "bastet", a command-line tetris clone:
