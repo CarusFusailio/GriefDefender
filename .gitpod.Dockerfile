@@ -1,6 +1,6 @@
 FROM archlinux
 
-RUN pacman -Syyu jdk8-openjdk --noconfirm
+RUN pacman -S jdk8-openjdk --noconfirm
 
 # Install custom tools, runtimes, etc.
 # For example "bastet", a command-line tetris clone:
